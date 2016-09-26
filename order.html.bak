@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> 不知道起什么名的论坛 </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+<BODY>
+  论坛首页
+ <form action="processorder.php" method="post">
+ <table border="1">
+ <tr bgcolor="#cccccc">
+	<td width="150">Item</td>
+	<td width="15">Quantity</td>
+ </tr>
+ <tr>
+    <td>Tires</td>
+	<td><input type="text" name="tireqty"></td>
+ </tr>
+<tr>
+	<td>Oil</td>
+	<td><input type="text" name="oilqty"/></td>
+  </tr>
+<tr>
+	<td>Spark plugs</td>
+	<td><input type="text" name="sparkqty"/></td>
+</tr>
+<tr>
+	<td>Shooping Address</td>
+	<td><input type="text" name="address"></td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><input type="submit" value="Submit Order"/></td>
+</tr>
+
+  </table>
+  </form>
+ </BODY>
+ <SCRIPT LANGUAGE="JavaScript">
+  
+ </SCRIPT>
+</HTML>
